@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 55px;
+    background-color:rgb(119, 255, 0);
+    padding: 15px;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 10px;
+    margin-right: 10px;    
+}
+.logo h2:hover{color: white;}
+
+header a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+nav a{
+    font-weight: 900;
+    padding-right: 10px;
+      
+}
+nav li:hover{
+    color: white;
+    transition: all 50ms;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-bottom: 0px;
+    
+}
+nav li{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: larger;
+    
+}
+main{
+    margin: 3%;
+}
+.contenedorfooter div{
+    background-color: rgb(32, 32, 32);
+
+}
+/*inicio*/
+.joya div{
+    padding: 1%;
+    
+}
+.joya div h1{
+    font-size: 170px;
+    color:rgb(235, 235, 235);
+}
+.joya div p{
+    font-size: 25px;
+    color: rgb(172, 179, 184);
+}
+.joya{
+    background-color:black ;
+}
+/*fin de inicio*/
+/*discografia*/
+.textodiscografia h2{
+    color:rgb(235, 235, 235) ;
+    font-size: 50px;
+}
+.textodiscografia p{
+    color: rgb(172, 179, 184) ;
+    font-size: 20px;
+}
+.contenedorcanciones{
+    display: flex;
+    justify-content: space-between;
+   
+}
+/*fin de discografia*/
+/*Tours*/
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.lollapalooza {
+    background-color: rgb(119, 255, 0);
+}
+.lollapalooza img{
+    width: auto;
+    height: auto;
+    margin: 3%;
+    background-color: white;
+    
+}
+/*fin de tours*/
+/*formulario*/
+.form{
+    background-color: white;
+}
+/*fin de formulario*/
+/*premios*/
+
+
+
+
+/*fin de premios*/
+
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    /*inicio*/
+    .joya div h1{
+        font-size: 85px;
+    }
+    .joya div p{
+        font-size: 15px;
+    }
+    .joya div{
+        padding: 3%;
+    }
+    /*fin de inicio*/
+    /*discografia*/
+    .contenedorcanciones{
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+    .contenedorcanciones iframe{
+        width: 90%;
+     
+    }
+    /*fin de discografia*/
+    /*tours*/
+    .tarjetas{
+        justify-content: center;
+    }
+    /*fin de tours*/
+
+}
+@media (max-width:400px){
+    nav ul{
+        flex-direction: column;
+    }
+    /*inicio*/
+    .joya div h1{
+        font-size: 85px;
+    }
+    .joya div p{
+        font-size: 15px;
+    }
+    .joya div{
+        padding: 3%;
+    }
+    /*fin de inicio*/
+
+}
