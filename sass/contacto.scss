@@ -1,0 +1,12 @@
+@import "variables";
+.textocontacto{
+    h2{
+        @include textotituloh2;
+    }
+    p{
+        @include textop;
+    }
+}
+.form{
+    background-color: white;
+}

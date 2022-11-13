@@ -1,0 +1,30 @@
+.textotours h2 {
+  color: rgb(235, 235, 235);
+  font-size: 50px;
+}
+.textotours p {
+  color: rgb(172, 179, 184);
+  font-size: 20px;
+}
+
+.tarjetas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.lollapalooza {
+  background-color: rgb(119, 255, 0);
+}
+.lollapalooza img {
+  width: auto;
+  height: auto;
+  margin: 3%;
+  background-color: white;
+}/*# sourceMappingURL=tours.css.map */

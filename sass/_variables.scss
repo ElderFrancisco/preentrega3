@@ -1,0 +1,13 @@
+$colorverde:rgb(119, 255, 0);
+$colornegro:rgb(0, 0, 0);
+$colorblanco:rgb(235, 235, 235);
+$colorgris:rgb(172, 179, 184);
+
+@mixin textotituloh2 {
+     color:rgb(235, 235, 235) ;
+    font-size: 50px;
+}
+@mixin textop {
+    color: rgb(172, 179, 184) ;
+    font-size: 20px;
+}

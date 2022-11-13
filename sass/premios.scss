@@ -1,0 +1,8 @@
+.textopremios{
+    h2{
+        @include textotituloh2;
+    }
+    p{
+        @include textop;
+    }
+}

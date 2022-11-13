@@ -1,0 +1,15 @@
+@import "variables";
+
+.textodiscografia{
+    h2{
+        @include textotituloh2;
+    }
+    p{
+        @include textop;
+    }
+}
+.contenedorcanciones{
+    display: flex;
+    justify-content: space-between;
+   
+}

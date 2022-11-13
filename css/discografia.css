@@ -1,0 +1,13 @@
+.textodiscografia h2 {
+  color: rgb(235, 235, 235);
+  font-size: 50px;
+}
+.textodiscografia p {
+  color: rgb(172, 179, 184);
+  font-size: 20px;
+}
+
+.contenedorcanciones {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=discografia.css.map */

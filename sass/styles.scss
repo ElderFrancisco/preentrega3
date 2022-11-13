@@ -1,0 +1,77 @@
+@import "variables";
+@import "header_footer";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color:$colornegro;
+    main{
+        margin: 3%;
+    }
+}
+@import "inicio";
+@import "discografia";
+@import "tours";
+@import "premios";
+@import"contacto";
+
+
+
+
+
+/*fin de premios*/
+
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    /*inicio*/
+    .joya div h1{
+        font-size: 85px;
+    }
+    .joya div p{
+        font-size: 15px;
+    }
+    .joya div{
+        padding: 3%;
+    }
+    /*fin de inicio*/
+    /*discografia*/
+    .contenedorcanciones{
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+    .contenedorcanciones iframe{
+        width: 90%;
+     
+    }
+    /*fin de discografia*/
+    /*tours*/
+    .tarjetas{
+        justify-content: center;
+    }
+    /*fin de tours*/
+
+}
+@media (max-width:400px){
+    nav ul{
+        flex-direction: column;
+    }
+    /*inicio*/
+    .joya div h1{
+        font-size: 85px;
+    }
+    .joya div p{
+        font-size: 15px;
+    }
+    .joya div{
+        padding: 3%;
+    }
+    /*fin de inicio*/
+
+}
